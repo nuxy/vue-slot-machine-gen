@@ -2,6 +2,14 @@ import * as Vue    from 'vue';
 import SlotMachine from '../dist/vue-slot-machine';
 
 const imageUrl = 'https://nuxy.github.io/slot-machine-gen/images';
+const soundUrl = 'https://nuxy.github.io/slot-machine-gen/sounds';
+
+const options = {
+  sounds: {
+    reelsBegin:`${soundUrl}/reelsBegin.mp3`,
+    reelsEnd: `${soundUrl}/reelsEnd.mp3`,
+  }
+};
 
 const reels = [
   {
@@ -111,11 +119,21 @@ const reels = [
   }
 ];
 
+const callback = function(payLine) {
+  console.log(payLine[0].title + ' | ' + payLine[1].title + ' | ' + payLine[2].title);
+
+  if (payLine[0].title === payLine[1].title && payLine[0].title === payLine[2].title) {
+    (new Audio(`${soundUrl}/winner.mp3`)).play();
+  }
+};
+
 const app = Vue.createApp({
   data() {
     return {
-      reels: reels,
-      play:  false
+      reels,
+      options,
+      callback,
+      play: false
     };
   },
 
@@ -126,7 +144,7 @@ const app = Vue.createApp({
   },
 
   template: `
-    <slot-machine v-bind:reels="reels" v-bind:play="play" />
+    <slot-machine v-bind:reels="reels" v-bind:options="options" v-bind:callback="callback" v-bind:play="play" />
 
     <button id="play-button" v-on:click="playEvent">Play</button>
   `
