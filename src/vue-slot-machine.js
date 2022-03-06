@@ -24,9 +24,6 @@ export default {
   },
 
   mounted() {
-
-    console.log(['xxx', this.reels]);
-
     this.slot = new SlotMachineGen(
       this.$el,
       this.reels,
