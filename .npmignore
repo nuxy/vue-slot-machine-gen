@@ -1,4 +1,6 @@
 .babelrc
 .eslintrc
 .vscode
+demo
+dist
 node_modules
