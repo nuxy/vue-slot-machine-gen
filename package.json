@@ -29,7 +29,7 @@
   "author": "Marc S. Brooks <devel@mbrooks.info> (https://mbrooks.info)",
   "license": "MIT",
   "dependencies": {
-    "slot-machine-gen": "^1.2.5",
+    "slot-machine-gen": "^1.2.6",
     "vue": "^3.2.31"
   },
   "devDependencies": {
