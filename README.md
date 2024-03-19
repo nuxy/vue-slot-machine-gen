@@ -29,7 +29,7 @@ Add to an existing [Vue](https://vuejs.org) project using [YARN](https://yarnpkg
 
 ```javascript
 import * as Vue from 'vue'
-import SlotMachine from 'vue-slot-machine-gen'; // or '../dist/vue-slot-machine-gen';
+import SlotMachine from 'vue-slot-machine-gen'; // or '../dist/vue-slot-machine';
 
 const reels = [
   {
