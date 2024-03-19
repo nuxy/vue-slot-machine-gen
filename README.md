@@ -1,4 +1,6 @@
-# Vue Slot Machine Generator [![npm version](https://badge.fury.io/js/vue-slot-machine-gen.svg)](https://badge.fury.io/js/vue-slot-machine-gen) [![](https://img.shields.io/npm/dm/vue-slot-machine-gen)](https://www.npmjs.com/package/vue-slot-machine-gen)
+# Vue Slot Machine Generator
+
+[![npm version](https://badge.fury.io/js/vue-slot-machine-gen.svg)](https://badge.fury.io/js/vue-slot-machine-gen) [![](https://img.shields.io/npm/dm/vue-slot-machine-gen)](https://www.npmjs.com/package/vue-slot-machine-gen) [![Install size](https://packagephobia.com/badge?p=vue-slot-machine-gen)](https://packagephobia.com/result?p=vue-slot-machine-gen) [![](https://img.shields.io/github/v/release/nuxy/vue-slot-machine-gen)](https://github.com/nuxy/vue-slot-machine-gen/releases)
 
 Create an extremely biased, web-based slot machine game.
 
@@ -6,7 +8,7 @@ Create an extremely biased, web-based slot machine game.
 
 ## Features
 
-- Faux-panoramic reel animations (without `<canvas>`)
+- Faux-panoramic reel animations (**3D cylinder**, without `<canvas>`)
 - Support for single/multi-line reels and pay-lines.
 - Pseudo-random selections by configured weight.
 - Configurable RNG (to make it less biased)
@@ -69,7 +71,7 @@ const reels = [
   },
 
   // add more reels ...
-]
+];
 
 const app = Vue.createApp({
   data() {
