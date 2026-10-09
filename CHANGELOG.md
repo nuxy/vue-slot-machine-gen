@@ -10,3 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0) a
 - Removed deprecated (unused) Babel plugins
 - Replaced ESLint deprecated release
 - Renamed Babel config to recommended
+
+## 1.3.5 - 2026-10-09
+
+- Documentation and publishing changes
