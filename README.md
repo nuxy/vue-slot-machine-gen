@@ -1,6 +1,6 @@
 # Vue Slot Machine Generator
 
-[![npm version](https://badge.fury.io/js/vue-slot-machine-gen.svg)](https://badge.fury.io/js/vue-slot-machine-gen) [![](https://img.shields.io/npm/dm/vue-slot-machine-gen)](https://www.npmjs.com/package/vue-slot-machine-gen) [![Install size](https://packagephobia.com/badge?p=vue-slot-machine-gen)](https://packagephobia.com/result?p=vue-slot-machine-gen) [![](https://img.shields.io/github/v/release/nuxy/vue-slot-machine-gen)](https://github.com/nuxy/vue-slot-machine-gen/releases) [![NO AI](https://raw.githubusercontent.com/nuxy/no-ai-badge/master/badge.svg)](https://github.com/nuxy/no-ai-badge)
+[![npm version](https://badge.fury.io/js/vue-slot-machine-gen.svg)](https://badge.fury.io/js/vue-slot-machine-gen) [![](https://img.shields.io/npm/dm/vue-slot-machine-gen)](https://www.npmjs.com/package/vue-slot-machine-gen) [![Install size](https://badgen.net/packagephobia/install/vue-slot-machine-gen)](https://packagephobia.com/result?p=vue-slot-machine-gen) [![](https://img.shields.io/github/v/release/nuxy/vue-slot-machine-gen)](https://github.com/nuxy/vue-slot-machine-gen/releases) [![NO AI](https://raw.githubusercontent.com/nuxy/no-ai-badge/master/badge.svg)](https://github.com/nuxy/no-ai-badge)
 
 Create an extremely biased, web-based slot machine game.
 
